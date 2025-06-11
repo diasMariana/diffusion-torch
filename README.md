@@ -6,21 +6,21 @@ This repository contains my personal implementation of a **Denoising Diffusion P
   <tr>
     <td align="center" style="padding:0 10px; width=50%">
     <p><b>Generated images</b></p>
-      <img src="demo_visuals/weights_6-6-2025_12_3:46/102flowers.jpg" width="500"/>
+      <img src="demo_visuals/weights_6-6-2025_12_3:46/102flowers.jpg"/>
       <br>
        <!-- <sub>102 flowers</sub> -->
        <!-- <br><br> -->
-      <img src="demo_visuals/weights_11-6-2025_7_59_28/afhq.jpg" width="500"/>
+      <img src="demo_visuals/weights_11-6-2025_7_59_28/afhq.jpg"/>
       <br>
       <!-- <sub>AFHQ V2</sub> -->
     </td>
     <td align="center" style="padding:0 10px;width=50%">
     <p><b>Denoising process</b></p>
-      <img src="demo_visuals/weights_6-6-2025_12_3:46/102flowers.gif" width="500"/>
+      <img src="demo_visuals/weights_6-6-2025_12_3:46/102flowers.gif"/>
        <br>
        <!-- <sub>102 flowers</sub> -->
        <!-- <br><br> -->
-      <img src="demo_visuals/weights_11-6-2025_7_59_28/afhq.gif" width="500"/>
+      <img src="demo_visuals/weights_11-6-2025_7_59_28/afhq.gif"/>
       <br>
       <!-- <sub>AFHQ V2</sub> -->
     </td>
