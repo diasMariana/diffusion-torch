@@ -1,0 +1,34 @@
+{
+    "data_dir": "datasets/102flowers/data_resized_64",
+    "hyperparams": {
+        "num_steps": 1000,
+        "beta_start": 0.0001,
+        "beta_end": 0.02,
+        "batch_size": 32,
+        "num_epochs": 200,
+        "lr": 0.0001,
+        "scheduler_mode": "sigmoid",
+        "clip_gradients": false,
+        "v_prediction": true,
+        "mixed_precision": false
+    },
+    "model": {
+        "in_channels": 3,
+        "img_size": 64,
+        "channel_mult": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "base_width": 64,
+        "attention_resolutions": "32,16,8"
+    },
+    "weights": "weights/102flowers",
+    "plots": "plots/102flowers",
+    "sampling": {
+        "num_samples": 15,
+        "num_grid_rows": 5
+    },
+    "initial_weights": ""
+}
