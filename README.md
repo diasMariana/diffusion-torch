@@ -1,6 +1,6 @@
 # Denoising Diffusion Probabilistic Model (DDPM)
 
-This repository contains my personal implementation of a **Denoising Diffusion Probabilistic Model (DDPM)**, based on the original paper by Ho et al, using PyTorch. The project is designed with extensibility in mind and will evolve to include several enhancements and alternative sampling techniques.
+This repository contains my personal implementation of a Denoising Diffusion Probabilistic Model (DDPM), based on the paper by [Ho et al](https://arxiv.org/pdf/2006.11239), using PyTorch. The project is designed with extensibility in mind and will evolve to include several enhancements and alternative sampling techniques.
 
 <table style="width=100%; border:0px">
   <tr>
@@ -43,13 +43,13 @@ This repository contains my personal implementation of a **Denoising Diffusion P
 ### 🚧 Upcoming Features:
 - Gradient accumulation
 - DDIM sampling procedure
-- Evaluation metrics: **FID** and **Inception Score**
+- Evaluation metrics: FID and Inception Score
 
 ---
 
 ## ✏️ Environment Setup
 
-Assuming that you have python and cuda toolkit installed, to set up the project environment:
+Assuming that you have Python and CUDA Toolkit installed, to set up the project environment:
 
 **Linux**
 ```bash
@@ -66,7 +66,7 @@ python -m venv .venv
 pip install --no-cache-dir -r requirements.txt
 ```
 
-Note that you might need to adjust `requirements.txt` according to the cuda toolkit version you have installed.
+**Note:** you might need to adjust the `requirements.txt` according to the CUDA Toolkit version installed on your system.
 
 ---
 
@@ -80,7 +80,7 @@ Create a JSON configuration file in the `configs` directory to define training p
 
 - AFHQ ([link](https://github.com/clovaai/stargan-v2/tree/master))
 
-These can serve as templates for your own experiments. Customize the `data_dir` field with the path of the directory of the training data, and the `weights`and `plots`fields with the paths where we'll save, respectively, the final model weights and the loss plot.
+These files can be used as templates for your own experiments. Customize the `data_dir` field with the path to your training data, and set the `weights` and `plots` fields to specify where the final model weights and loss plots should be saved, respectively.
 
 ### Training
 
