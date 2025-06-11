@@ -2,9 +2,9 @@
 
 This repository contains my personal implementation of a **Denoising Diffusion Probabilistic Model (DDPM)**, based on the original paper by Ho et al, using PyTorch. The project is designed with extensibility in mind and will evolve to include several enhancements and alternative sampling techniques.
 
-<table>
+<table style="width=100%; border:0px">
   <tr>
-    <td align="center" style="padding:0 10px;">
+    <td align="center" style="padding:0 10px; width=50%">
     <p><b>Generated images</b></p>
       <img src="demo_visuals/weights_6-6-2025_12_3:46/102flowers.jpg" width="500"/>
       <br>
@@ -14,7 +14,7 @@ This repository contains my personal implementation of a **Denoising Diffusion P
       <br>
       <!-- <sub>AFHQ V2</sub> -->
     </td>
-    <td align="center" style="padding:0 10px;">
+    <td align="center" style="padding:0 10px;width=50%">
     <p><b>Denoising process</b></p>
       <img src="demo_visuals/weights_6-6-2025_12_3:46/102flowers.gif" width="500"/>
        <br>
